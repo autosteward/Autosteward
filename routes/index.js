@@ -114,8 +114,11 @@ router.get('/contact', function(req, res, next) {
   return res.render('contact', { title: 'Contact' });
 });
 
+// GET /services
 router.get('/services', function(req, res, next) {
-  return res.render('services', { title: Services });
+  return res.render('services', { title: 'Services' });
 });
+
+
 
 module.exports = router;
